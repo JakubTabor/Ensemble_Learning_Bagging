@@ -9,3 +9,4 @@
 # I put into "cross_val_score" "DecisionTreeClassifier", "X", "y" and set  number of iteration at (5), then I get "mean" of my scores "scores.mean()"
 # Next from "sklearn.ensemble" I import "BaggingClassifier" and prepare "bag_model"
 # My "base_estimator" will be "DecisionTreeClassifier" numbers of "trees" "n_estimators" (50), "max_samples" at (0.8) and "max_samples" at "True"
+# Then i train my "bag_model" "bag_model.fit(X_train, y_train)" and get score "bag_model.oob_score_"
