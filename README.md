@@ -6,3 +6,4 @@
 # Next I can import "train_test_split" and get "train" and "test" set, my "X" is "X_scaled" and I use parameter "stratify" on "y" its "labels array"
 # I check shape of my "X_train" and "X_test" and I use method "value_counts" on my "y_train"
 # Then I import "classifier" from "sklearn.tree" I import "DecisionTreeClassifier" and from "sklearn.model_selection" I import "cross_val_score"
+# I put into "cross_val_score" "DecisionTreeClassifier", "X", "y" and set  number of iteration at (5), then I get "mean" of my scores "scores.mean()"
